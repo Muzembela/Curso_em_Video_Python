@@ -1,0 +1,5 @@
+n = input('Digite um dado: ')
+print(type(n))
+print(n.isalnum())
+print(n.isalpha())
+print(n.isupper())

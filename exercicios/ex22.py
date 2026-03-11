@@ -1,0 +1,5 @@
+nome = str(input('Digite o seu nome completo: '))
+print("Minus->", nome.lower())
+print("Maius->", nome.upper())
+print("len->", len(nome.replace(" ", "")))
+print("len do 1 nome:", len(nome.split()[0]))
